@@ -2,10 +2,10 @@
   email cctechwiz@gmail.com
 }
 
-portainer.infra.cosmere {
-  reverse_proxy portainer:9443
-  tls internal
-}
+# portainer.infra.cosmere {
+#   reverse_proxy portainer:9443
+#   tls internal
+# }
 
 foundry.cosmere.cctechwiz.com {
   reverse_proxy lightweaver.cosmere:30000
